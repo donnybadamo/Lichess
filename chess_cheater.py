@@ -5,7 +5,7 @@ from flask import Flask, request, render_template_string
 app = Flask(__name__)
 
 # Initialize Lichess API client
-api_token = "lip_sQkKF391gXxDeGRoqGRi"
+api_token = "EXAMPLE"
 session = berserk.TokenSession(api_token)
 client = berserk.Client(session=session)
 
