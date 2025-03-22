@@ -4,7 +4,7 @@ import berserk
 
 
 # bullshit that allows me to do things
-api_token = "lip_sQkKF391gXxDeGRoqGRi"
+api_token = "EXAMPLE"
 session = berserk.TokenSession(api_token)
 client = berserk.Client(session=session)
 
